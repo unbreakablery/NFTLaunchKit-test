@@ -36,7 +36,7 @@ export default function Footers() {
           <Logo />
         </Flex>
         <Text pt={6} fontSize={'sm'} textAlign={'center'}>
-          © 2022 Donation App. All rights reserved, Design by <strong><a href="https://github.com/unbreakablery/NFTLaunchKit-test" target="_blank">Lusin Jin</a></strong>
+          © 2022 Donation App. All rights reserved, Design by <strong><a href="https://github.com/unbreakablery/NFTLaunchKit-test" target="_blank" rel="noreferrer">Lusin Jin</a></strong>
         </Text>
       </Box>
     </Box>

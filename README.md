@@ -28,7 +28,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Smart Contract Address deployed to Rinkeby
-Check out smart contract code in [https://rinkeby.etherscan.io/address/0x3f49d8231c2e333ff300d3bd0dc323558e021430#code](here)
+Check out smart contract code in [here](https://rinkeby.etherscan.io/address/0x3f49d8231c2e333ff300d3bd0dc323558e021430#code)
 
 ## Deploy on Vercel
 
