@@ -6,7 +6,7 @@ export default class Document extends NextDocument {
     return (
       <Html>
         <Head>
-          <title>NFTLaunchKit</title>
+          <title>Donation App By Luis Jin</title>
           <link rel="icon" type="image/x-icon" href="/favicon.ico" />
         </Head>
         <body>

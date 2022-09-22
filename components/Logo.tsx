@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link href="/">
       <Heading as='h4' size='md'>
-        NFTLaunchKit
+        Donation App
       </Heading>
     </Link>
   )

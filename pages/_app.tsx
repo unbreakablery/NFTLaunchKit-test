@@ -15,6 +15,7 @@ import {
 import { publicProvider } from 'wagmi/providers/public'
 import { CoinbaseWalletConnector } from 'wagmi/connectors/coinbaseWallet'
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
+import { useEffect, useState } from 'react';
 
 // Configure chains & providers.
 const { chains, provider, webSocketProvider } = configureChains(defaultChains, [
@@ -39,14 +40,22 @@ const client = createClient({
 
 function MyApp({ Component, pageProps }: AppProps) {
 
+  const [ isLoadingUI, setIsLoadingUI ] = useState(false)
+
+  useEffect(() => {
+    setIsLoadingUI(true);
+  }, [])
+
   return (
     <>
+    {isLoadingUI &&
       <ChakraProvider theme={theme}>
         <CSSReset />
         <WagmiConfig client={client}>
           <Component {...pageProps} />
         </WagmiConfig>
       </ChakraProvider>
+    }
     </>
   )
 }

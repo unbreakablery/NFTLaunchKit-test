@@ -30,7 +30,7 @@ const App: NextPage = () => {
             color="gray.400"
             textTransform="uppercase"
           >
-            For Developers
+            For Users
           </chakra.p>
           <chakra.h1
             mb={3}
@@ -45,7 +45,7 @@ const App: NextPage = () => {
               color: "white",
             }}
           >
-            Focus on your apps
+            About this app
           </chakra.h1>
           <chakra.p
             mb={5}
@@ -54,9 +54,8 @@ const App: NextPage = () => {
               md: "lg",
             }}
           >
-            Today every company needs apps to engage their customers and run their
-            businesses. Step up your ability to build, manage, and deploy great apps
-            at scale with us.
+            This dapp is test app for donation.
+            So you can send your ETH to anyone for donation, and withdraw the money received from donators into your wallet.
           </chakra.p>
           <HStack>
             <NextLink href='/donation' passHref>

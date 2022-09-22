@@ -1,15 +1,12 @@
-# Test Assessment
+# Donation App
 
-## Task
- - Create a new Git repository and project (Public).
- - Use NextJS (JS or TS), Wagmi, Tailwind or ChakraUI and create a small app. 
-Features and structure: 
-- Nice layout with navbar and footer with Next Router.
-- Wallet Connection Integration with Metamask and Coinbase Wallet with Wagmi.
-- Use API of your choice e.g. Coinbase API or any other and display CryptoPunk Collection on the front page of your project.
-- Very important is clean code and comments in your functions.
-- Deploy to Vercel or Netifly.
+## Features
+ - You can send your ETH to anyone for donation.
+ - You can withdraw the money received from donators into your wallet.
 
+## Stacks
+ - Ethereum, Solidity, Smart Contract
+ - Used NextJS (JS or TS), Wagmi, ChakraUI
 
 ## Getting Started
 
@@ -30,13 +27,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Features
-- Next.js - TypeScript
-- Wagmi
-- ChakraUI
-- Next Router
-- Moralis API
-- Netifly
+## Smart Contract Address deployed to Rinkeby
+Check out smart contract code in [https://rinkeby.etherscan.io/address/0x3f49d8231c2e333ff300d3bd0dc323558e021430#code](here)
+
 ## Deploy on Vercel
 
-Check out  [https://nextjs-web3-nfts-test.vercel.app/](https://nextjs-web3-nfts-test.vercel.app/) for live.
+Check out [https://luisjin-nftlaunchkit-test.vercel.app/](https://luisjin-nftlaunchkit-test.vercel.app/) for live.
